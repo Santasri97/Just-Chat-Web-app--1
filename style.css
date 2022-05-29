@@ -1,0 +1,188 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 210px;
+	margin-top: 20px;
+	border-radius: 40px;
+
+	animation-name: Santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+@keyframes Santasri {
+    from {box-shadow: 30px 30px 70px rgb(254, 125, 211);}
+    to {box-shadow: 30px 30px 70px magenta;}
+}
+
+
+#login_button
+{
+	width: 80%;
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom right ,#FF69B4,#FF50A7,#FF369B,#FF1C8E,#FF0381,#FF0080);
+	animation-name: Santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes Santasri {
+    from {box-shadow: 30px 30px 70px rgb(254, 125, 211);}
+    to {box-shadow: 30px 30px 70px magenta;}
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+.h3-1 {
+	margin-top: 49px;
+	font-size: 25px;
+	color: rgb(239, 44, 210);
+}
+.h4-1 {
+	font-size: 25px;
+	color: rgb(239, 44, 210);	
+}
+.USER {
+	font-size: 28px;
+	color:#FF50A7;
+}
+.addroom {
+	width: 200px;
+	font-size: 25px;
+	color: white;
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom right ,#FF69B4,#FF50A7,#FF369B,#FF1C8E,#FF0381,#FF0080);
+	animation-name: Santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes Santasri {
+    from {box-shadow: 30px 30px 70px rgb(254, 125, 211);}
+    to {box-shadow: 30px 30px 70px magenta;}
+}
+
+.room {
+	font-size: 25px;
+	color: rgb(253, 80, 251);
+	border-radius: 15px;
+}
+ #logout {
+	height: 50px;
+	width: 140px;
+	font-size: 25px;
+	color: white;
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom right,rgb(252, 3, 3),rgb(252, 40, 3),rgb(252, 11, 3),rgb(252, 82, 3),rgb(252, 119, 3),rgb(252, 152, 3),rgb(252, 177, 3));
+	animation-name: Mukherjee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+ }
+
+@keyframes Mukherjee {
+    from {box-shadow: 30px 30px 70px rgb(255, 111, 111);}
+    to {box-shadow: 30px 30px 70px rgb(255, 148, 109);}
+}
+
+.send {
+	width: 140px;
+	font-size: 25px;
+	color: white;
+	border-radius: 50px;
+	background-image: linear-gradient(to bottom right ,#FF69B4,#FF50A7,#FF369B,#FF1C8E,#FF0381,#FF0080);
+	animation-name: Santasri;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+}
+@keyframes Santasri {
+    from {box-shadow: 30px 30px 70px rgb(254, 125, 211);}
+    to {box-shadow: 30px 30px 70px magenta;}
+}
+#send {
+	font-size: 25px;
+	color: #FF369B;
+}
